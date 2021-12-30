@@ -1,0 +1,6 @@
+framework module ZmeetPhotoKit {
+  umbrella header "ZmeetPhotoKit.h"
+
+  export *
+  module * { export * }
+}

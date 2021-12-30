@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC02F5337E40437D85C0683 /* libPods-ZPhotoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6C3222C24384D225AB6965 /* libPods-ZPhotoDemo.a */; };
+		D7AC90EF2773467D0069158C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC90EE2773467D0069158C /* AppDelegate.m */; };
+		D7AC90F52773467D0069158C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC90F42773467D0069158C /* ViewController.m */; };
+		D7AC90F82773467D0069158C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AC90F62773467D0069158C /* Main.storyboard */; };
+		D7AC90FA2773467E0069158C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AC90F92773467E0069158C /* Assets.xcassets */; };
+		D7AC90FD2773467E0069158C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AC90FB2773467E0069158C /* LaunchScreen.storyboard */; };
+		D7AC91002773467E0069158C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC90FF2773467E0069158C /* main.m */; };
+		D7AC910A2773467E0069158C /* ZPhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC91092773467E0069158C /* ZPhotoDemoTests.m */; };
+		D7AC91142773467E0069158C /* ZPhotoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC91132773467E0069158C /* ZPhotoDemoUITests.m */; };
+		D7AC91162773467E0069158C /* ZPhotoDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC91152773467E0069158C /* ZPhotoDemoUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7AC91062773467E0069158C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AC90E22773467D0069158C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AC90E92773467D0069158C;
+			remoteInfo = ZPhotoDemo;
+		};
+		D7AC91102773467E0069158C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AC90E22773467D0069158C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AC90E92773467D0069158C;
+			remoteInfo = ZPhotoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D71FD9B6277C8B62006EA68F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39B995DA98DEC459A376025F /* Pods-ZPhotoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPhotoDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6C3222C24384D225AB6965 /* libPods-ZPhotoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPhotoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC90EA2773467D0069158C /* ZPhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC90ED2773467D0069158C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7AC90EE2773467D0069158C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7AC90F32773467D0069158C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7AC90F42773467D0069158C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7AC90F72773467D0069158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7AC90F92773467E0069158C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7AC90FC2773467E0069158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7AC90FE2773467E0069158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AC90FF2773467E0069158C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7AC91052773467E0069158C /* ZPhotoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPhotoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC91092773467E0069158C /* ZPhotoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPhotoDemoTests.m; sourceTree = "<group>"; };
+		D7AC910F2773467E0069158C /* ZPhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC91132773467E0069158C /* ZPhotoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPhotoDemoUITests.m; sourceTree = "<group>"; };
+		D7AC91152773467E0069158C /* ZPhotoDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPhotoDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F8628F74E3577D37E0D87D48 /* Pods-ZPhotoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPhotoDemo.release.xcconfig"; path = "Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7AC90E72773467D0069158C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC02F5337E40437D85C0683 /* libPods-ZPhotoDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC91022773467E0069158C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC910C2773467E0069158C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2C26FB27A365A9EB9D0C54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39B995DA98DEC459A376025F /* Pods-ZPhotoDemo.debug.xcconfig */,
+				F8628F74E3577D37E0D87D48 /* Pods-ZPhotoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		D7AC90E12773467D0069158C = {
+			isa = PBXGroup;
+			children = (
+				D7AC90EC2773467D0069158C /* ZPhotoDemo */,
+				D7AC91082773467E0069158C /* ZPhotoDemoTests */,
+				D7AC91122773467E0069158C /* ZPhotoDemoUITests */,
+				D7AC90EB2773467D0069158C /* Products */,
+				D7AC91222773484F0069158C /* Frameworks */,
+				1D2C26FB27A365A9EB9D0C54 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D7AC90EB2773467D0069158C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC90EA2773467D0069158C /* ZPhotoDemo.app */,
+				D7AC91052773467E0069158C /* ZPhotoDemoTests.xctest */,
+				D7AC910F2773467E0069158C /* ZPhotoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7AC90EC2773467D0069158C /* ZPhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC90ED2773467D0069158C /* AppDelegate.h */,
+				D7AC90EE2773467D0069158C /* AppDelegate.m */,
+				D7AC90F32773467D0069158C /* ViewController.h */,
+				D7AC90F42773467D0069158C /* ViewController.m */,
+				D7AC90F62773467D0069158C /* Main.storyboard */,
+				D7AC90F92773467E0069158C /* Assets.xcassets */,
+				D7AC90FB2773467E0069158C /* LaunchScreen.storyboard */,
+				D7AC90FE2773467E0069158C /* Info.plist */,
+				D7AC90FF2773467E0069158C /* main.m */,
+			);
+			path = ZPhotoDemo;
+			sourceTree = "<group>";
+		};
+		D7AC91082773467E0069158C /* ZPhotoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC91092773467E0069158C /* ZPhotoDemoTests.m */,
+			);
+			path = ZPhotoDemoTests;
+			sourceTree = "<group>";
+		};
+		D7AC91122773467E0069158C /* ZPhotoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC91132773467E0069158C /* ZPhotoDemoUITests.m */,
+				D7AC91152773467E0069158C /* ZPhotoDemoUITestsLaunchTests.m */,
+			);
+			path = ZPhotoDemoUITests;
+			sourceTree = "<group>";
+		};
+		D7AC91222773484F0069158C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6C3222C24384D225AB6965 /* libPods-ZPhotoDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7AC90E92773467D0069158C /* ZPhotoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AC91192773467E0069158C /* Build configuration list for PBXNativeTarget "ZPhotoDemo" */;
+			buildPhases = (
+				ECDA4068CAC2EA97D012EE64 /* [CP] Check Pods Manifest.lock */,
+				D7AC90E62773467D0069158C /* Sources */,
+				D7AC90E72773467D0069158C /* Frameworks */,
+				D7AC90E82773467D0069158C /* Resources */,
+				EE26C0A3AEF2A08B169058E0 /* [CP] Copy Pods Resources */,
+				D71FD9B6277C8B62006EA68F /* Embed Frameworks */,
+				8B50D18A879D6946577024A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPhotoDemo;
+			productName = ZPhotoDemo;
+			productReference = D7AC90EA2773467D0069158C /* ZPhotoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7AC91042773467E0069158C /* ZPhotoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AC911C2773467E0069158C /* Build configuration list for PBXNativeTarget "ZPhotoDemoTests" */;
+			buildPhases = (
+				D7AC91012773467E0069158C /* Sources */,
+				D7AC91022773467E0069158C /* Frameworks */,
+				D7AC91032773467E0069158C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AC91072773467E0069158C /* PBXTargetDependency */,
+			);
+			name = ZPhotoDemoTests;
+			productName = ZPhotoDemoTests;
+			productReference = D7AC91052773467E0069158C /* ZPhotoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7AC910E2773467E0069158C /* ZPhotoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AC911F2773467E0069158C /* Build configuration list for PBXNativeTarget "ZPhotoDemoUITests" */;
+			buildPhases = (
+				D7AC910B2773467E0069158C /* Sources */,
+				D7AC910C2773467E0069158C /* Frameworks */,
+				D7AC910D2773467E0069158C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AC91112773467E0069158C /* PBXTargetDependency */,
+			);
+			name = ZPhotoDemoUITests;
+			productName = ZPhotoDemoUITests;
+			productReference = D7AC910F2773467E0069158C /* ZPhotoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7AC90E22773467D0069158C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D7AC90E92773467D0069158C = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					D7AC91042773467E0069158C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = D7AC90E92773467D0069158C;
+					};
+					D7AC910E2773467E0069158C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = D7AC90E92773467D0069158C;
+					};
+				};
+			};
+			buildConfigurationList = D7AC90E52773467D0069158C /* Build configuration list for PBXProject "ZPhotoDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7AC90E12773467D0069158C;
+			productRefGroup = D7AC90EB2773467D0069158C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7AC90E92773467D0069158C /* ZPhotoDemo */,
+				D7AC91042773467E0069158C /* ZPhotoDemoTests */,
+				D7AC910E2773467E0069158C /* ZPhotoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7AC90E82773467D0069158C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC90FD2773467E0069158C /* LaunchScreen.storyboard in Resources */,
+				D7AC90FA2773467E0069158C /* Assets.xcassets in Resources */,
+				D7AC90F82773467D0069158C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC91032773467E0069158C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC910D2773467E0069158C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B50D18A879D6946577024A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDA4068CAC2EA97D012EE64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPhotoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE26C0A3AEF2A08B169058E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPhotoDemo/Pods-ZPhotoDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7AC90E62773467D0069158C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC90F52773467D0069158C /* ViewController.m in Sources */,
+				D7AC90EF2773467D0069158C /* AppDelegate.m in Sources */,
+				D7AC91002773467E0069158C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC91012773467E0069158C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC910A2773467E0069158C /* ZPhotoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC910B2773467E0069158C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC91142773467E0069158C /* ZPhotoDemoUITests.m in Sources */,
+				D7AC91162773467E0069158C /* ZPhotoDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7AC91072773467E0069158C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AC90E92773467D0069158C /* ZPhotoDemo */;
+			targetProxy = D7AC91062773467E0069158C /* PBXContainerItemProxy */;
+		};
+		D7AC91112773467E0069158C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AC90E92773467D0069158C /* ZPhotoDemo */;
+			targetProxy = D7AC91102773467E0069158C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7AC90F62773467D0069158C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7AC90F72773467D0069158C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7AC90FB2773467E0069158C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7AC90FC2773467E0069158C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7AC91172773467E0069158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7AC91182773467E0069158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7AC911A2773467E0069158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B995DA98DEC459A376025F /* Pods-ZPhotoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZPhotoDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Video Chat";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Video Chat";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo save";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZPhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7AC911B2773467E0069158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8628F74E3577D37E0D87D48 /* Pods-ZPhotoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZPhotoDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Video Chat";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Video Chat";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo save";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZPhotoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7AC911D2773467E0069158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZPhotoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPhotoDemo.app/ZPhotoDemo";
+			};
+			name = Debug;
+		};
+		D7AC911E2773467E0069158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZPhotoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPhotoDemo.app/ZPhotoDemo";
+			};
+			name = Release;
+		};
+		D7AC91202773467E0069158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZPhotoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZPhotoDemo;
+			};
+			name = Debug;
+		};
+		D7AC91212773467E0069158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZPhotoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZPhotoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7AC90E52773467D0069158C /* Build configuration list for PBXProject "ZPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC91172773467E0069158C /* Debug */,
+				D7AC91182773467E0069158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AC91192773467E0069158C /* Build configuration list for PBXNativeTarget "ZPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC911A2773467E0069158C /* Debug */,
+				D7AC911B2773467E0069158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AC911C2773467E0069158C /* Build configuration list for PBXNativeTarget "ZPhotoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC911D2773467E0069158C /* Debug */,
+				D7AC911E2773467E0069158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AC911F2773467E0069158C /* Build configuration list for PBXNativeTarget "ZPhotoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC91202773467E0069158C /* Debug */,
+				D7AC91212773467E0069158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7AC90E22773467D0069158C /* Project object */;
+}
