@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZMeetSDK"
-  s.version          = "0.0.1"
+  s.version          = "1.0.2"
   s.summary          = "ZMeetSDK."
   s.description      = "ZMeetSDK of bing"
   s.homepage         = "http://www.abcpen.com"
@@ -9,16 +9,18 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/abcpen-inc/zmeet-sdk.git',:tag => s.version}
   s.platform         = :ios, '10.0'
   s.requires_arc     = true
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7'}
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.subspec 'ZmeetCoreKit' do |sp|
     sp.public_header_files = 'ZMeetSDK/ZmeetCoreKit.framework/Headers/ZmeetCoreKit.h'
     sp.source_files        = 'ZMeetSDK/ZmeetCoreKit.framework/Headers/*.{h}'
     sp.vendored_frameworks = 'ZMeetSDK/ZmeetCoreKit.framework'
+    sp.dependency 'GoogleWebRTC'
     sp.dependency 'AFNetworking'
     sp.dependency 'Masonry'
     sp.dependency 'JSONModel'
-
+    sp.frameworks =  "Foundation","UIKit"
     sp.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   end
 
@@ -31,6 +33,7 @@ Pod::Spec.new do |s|
     sp.dependency 'GPUImage'
     sp.dependency 'JSONModel'
     sp.dependency 'Toast'
+    sp.frameworks =  "Foundation","UIKit"
     sp.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   end
 
