@@ -13,9 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 typedef NS_ENUM(NSUInteger, JoinFailReason) {
-    JoinFailReasonTokenInvalid = 0, //token失效
-    JoinFailReasonRoom = 1, //加入会议失败
-    JoinFailReasonAuth = 2 //授权失败
+    JoinFailReasonAuth = -1, //授权失败
+    JoinFailReasonLimit = 1002, //人数上限
+    JoinFailReasonServerLimit = 1001, //全网同时进行会议数限制 （根据具体服务器情况）
+    JoinFailReasonRoomNotExsit =2001// 房间不存在
 };
 
 
@@ -28,7 +29,7 @@ typedef NS_ENUM(NSUInteger, JoinFailReason) {
  
  @param reason  失败原因
  */
--(void) joinRoomError:(JoinFailReason) reason;
+-(void) joinRoomError:(JoinFailReason) reason ;
 
 
 /*!
@@ -47,6 +48,26 @@ typedef NS_ENUM(NSUInteger, JoinFailReason) {
  */
 -(void) dismissProgress;
 
+#pragma mark - meet
+/**
+ 用户加入成功
+ */
+-(void) onJoinSuccess:(NSString *) channelId targetId:(NSString *) targetId;
+
+/**
+ 远端用户加入
+ */
+-(void) onRemoteUserJoined:(NSString *) targetId name:(NSString *) name;
+
+/**
+ 远端用户离开
+ */
+-(void) onRemoteUserOffline:(NSString *) targetId;
+
+/**
+ 会议结束
+ */
+-(void) onMeetFinish;
 @end
 
 @interface ZPhotoEngineKit : NSObject
