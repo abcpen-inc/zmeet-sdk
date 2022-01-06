@@ -13,10 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 typedef NS_ENUM(NSUInteger, JoinFailReason) {
+    JoinFailReasonNetError = -9999, //网络异常
     JoinFailReasonAuth = -1, //授权失败
     JoinFailReasonLimit = 1002, //人数上限
     JoinFailReasonServerLimit = 1001, //全网同时进行会议数限制 （根据具体服务器情况）
     JoinFailReasonRoomNotExsit =2001// 房间不存在
+
 };
 
 
@@ -96,6 +98,24 @@ typedef NS_ENUM(NSUInteger, JoinFailReason) {
  @param channelId 会议号
  */
 -(void) join:(UIViewController *) viewCtrl userInfo:(ZPhotoUserInfo *) userInfo channelId:(NSString *) channelId;
+
+
+/**
+ 参与者加入会议
+ join with userInfo 保留
+ @param viewCtrl 唤起的viewCtrl
+ @param mobile 用户手机号
+ @param meetId 会议号 同channelId
+ */
+-(void) join:(UIViewController *) viewCtrl mobile:(NSString *) mobile meetId:(NSString *) meetId;
+
+/**
+ 主持人开启会议
+ @param viewCtrl 唤起的viewCtrl
+ @param mobile 用户手机号
+ */
+-(void) lauch:(UIViewController *) viewCtrl mobile:(NSString *) mobile;
+
 
 @end
 

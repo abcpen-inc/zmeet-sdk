@@ -32,17 +32,11 @@
 }
 
 - (IBAction)ownerJoin:(id)sender {
-    ZPhotoUserInfo *userInfo = [[ZPhotoUserInfo alloc] init];
-    userInfo.targetId = self.userId;
-    userInfo.role = ZPhotoRole_OWNER;
-    [[ZPhotoEngineKit sharedEngine] join:self userInfo:userInfo channelId:self.textMeetingId.text];
+    [[ZPhotoEngineKit sharedEngine] lauch:self mobile:self.userId];
 }
 
 - (IBAction)otherJoin:(id)sender {
-    ZPhotoUserInfo *userInfo = [[ZPhotoUserInfo alloc] init];
-    userInfo.targetId = self.userId;
-    userInfo.role = ZPhotoRole_OTHER;
-    [[ZPhotoEngineKit sharedEngine] join:self userInfo:userInfo channelId:self.textMeetingId.text];
+    [[ZPhotoEngineKit sharedEngine] join:self mobile:self.userId meetId:self.textMeetingId.text];
 }
 
 #pragma mark - ZPhotoEngineKitDelegate
@@ -52,11 +46,14 @@
         case JoinFailReasonAuth:
             [self.view makeToast:@"授权失败"];
             break;
-        case JoinFailReasonTokenInvalid:
-            [self.view makeToast:@"token校验失败"];
+        case JoinFailReasonServerLimit:
+            [self.view makeToast:@"服务上限"];
             break;
-        case JoinFailReasonRoom:
-            [self.view makeToast:@"加入房间失败"];
+        case JoinFailReasonLimit:
+            [self.view makeToast:@"人数上限"];
+            break;
+        case JoinFailReasonRoomNotExsit:
+            [self.view makeToast:@"会议号不存在"];
             break;
         default:
             break;

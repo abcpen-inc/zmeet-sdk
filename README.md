@@ -10,6 +10,7 @@
 | ------- | ---------- | ---------- | ------- |
 | 1.0.0   | 2020-11-01 |Bing        |  1.0.0  |
 | 1.0.2   | 2021-12-30 |Bing        |  加入合照sdk |
+| 1.0.3   | 2021-01-06 |Bing        |  加入合影编辑 |
 
 ### 准备环境
 
@@ -22,8 +23,8 @@
 ### POD
 
 ```
-pod 'ZMeetSDK/ZmeetPhotoKit', '~>1.0.2'
-pod 'ZMeetSDK/ZmeetCoreKit','~>1.0.2'
+pod 'ZMeetSDK/ZmeetPhotoKit'
+pod 'ZMeetSDK/ZmeetCoreKit'
 ```
 
 
@@ -48,6 +49,23 @@ pod 'ZMeetSDK/ZmeetCoreKit','~>1.0.2'
  @param channelId 会议号
  */
 -(void) join:(UIViewController *) viewCtrl userInfo:(ZPhotoUserInfo *) userInfo channelId:(NSString *) channelId;
+
+
+/**
+ 参与者加入会议
+ join with userInfo 保留
+ @param viewCtrl 唤起的viewCtrl
+ @param mobile 用户手机号
+ @param meetId 会议号 同channelId
+ */
+-(void) join:(UIViewController *) viewCtrl mobile:(NSString *) mobile meetId:(NSString *) meetId;
+
+/**
+ 主持人开启会议
+ @param viewCtrl 唤起的viewCtrl
+ @param mobile 用户手机号
+ */
+-(void) lauch:(UIViewController *) viewCtrl mobile:(NSString *) mobile;
 ```
 
 #### model
@@ -92,6 +110,7 @@ typedef enum : NSInteger{
 ### 回调
 ```objective-c
 typedef NS_ENUM(NSUInteger, JoinFailReason) {
+    JoinFailReasonNetError = -9999, //网络异常
     JoinFailReasonAuth = -1, //授权失败
     JoinFailReasonLimit = 1002, //人数上限
     JoinFailReasonServerLimit = 1001, //全网同时进行会议数限制 （根据具体服务器情况）
