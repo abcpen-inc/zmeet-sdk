@@ -43,7 +43,7 @@
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/ZmeetCoreKit</key>
 		<data>
-		VAw804+CnM/e6qTDn/PyOIYgdnM=
+		9bHT3/oUFiDeKyxiCPX73sI60rI=
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>Headers/ZPhotoEngineKit.h</key>
 		<data>
-		plzZLArtku6mP7V9EiC3JxBHdos=
+		rebCyIIwogMCN95kviQLix0GO+k=
 		</data>
 		<key>Headers/ZPhotoUserInfo.h</key>
 		<data>
@@ -226,11 +226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VAw804+CnM/e6qTDn/PyOIYgdnM=
+			9bHT3/oUFiDeKyxiCPX73sI60rI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cUIDzyETtywRVIN/0jhWPUfzF/2E/m5ROF+MfVazUVs=
+			V4miw8Us7WUdEdYinz1IOAUY6jkCy1CCTaEgIjNyGL4=
 			</data>
 		</dict>
 		<key>Frameworks/ZmeetCoreKit.framework/_CodeSignature/CodeResources</key>
@@ -292,11 +292,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			plzZLArtku6mP7V9EiC3JxBHdos=
+			rebCyIIwogMCN95kviQLix0GO+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			0AOyMCN6y/lGfqAev6tk+cXahriss+fImcUqAlIKGOE=
+			PYWfs7DmOc/R30ZQoGbaHaNOZBgFZHbMmpZGG2WsKyQ=
 			</data>
 		</dict>
 		<key>Headers/ZPhotoUserInfo.h</key>

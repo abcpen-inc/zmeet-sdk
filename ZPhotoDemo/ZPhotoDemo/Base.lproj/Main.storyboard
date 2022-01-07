@@ -55,9 +55,8 @@
                                     <action selector="otherJoin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ila-sH-hy6"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="12345" borderStyle="roundedRect" placeholder="请输入会议号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dcc-xX-t73">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="12345" borderStyle="roundedRect" placeholder="请输入会议号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dcc-xX-t73">
                                 <rect key="frame" x="20" y="141" width="374" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -67,6 +66,9 @@
                         <constraints>
                             <constraint firstItem="EXa-Sw-O7P" firstAttribute="top" secondItem="A1p-d2-ePK" secondAttribute="bottom" constant="50" id="90G-5b-NhQ"/>
                             <constraint firstItem="A1p-d2-ePK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nd2-ZM-qiM"/>
+                            <constraint firstItem="dcc-xX-t73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RaB-dS-GxD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dcc-xX-t73" secondAttribute="trailing" constant="20" id="TqO-4w-jsD"/>
+                            <constraint firstItem="dcc-xX-t73" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="UIB-aR-9ar"/>
                             <constraint firstItem="EXa-Sw-O7P" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gKN-s0-7Qi"/>
                             <constraint firstItem="A1p-d2-ePK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="168" id="hV7-Te-2fP"/>
                         </constraints>

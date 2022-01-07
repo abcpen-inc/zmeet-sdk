@@ -14,11 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, JoinFailReason) {
     JoinFailReasonNetError = -9999, //网络异常
+    JoinFailReasonRoomError = -8888, //加入会议失败
     JoinFailReasonAuth = -1, //授权失败
     JoinFailReasonLimit = 1002, //人数上限
     JoinFailReasonServerLimit = 1001, //全网同时进行会议数限制 （根据具体服务器情况）
     JoinFailReasonRoomNotExsit =2001// 房间不存在
-
 };
 
 

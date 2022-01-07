@@ -25,7 +25,7 @@
     
     // Do any additional setup after loading the view.
     NSString *uid = [[NSUserDefaults standardUserDefaults] objectForKey:@"userId"];
-    int y =100 +  (arc4random() % 10001);
+    int y =100 +  (arc4random() % 1000001);
     self.userId = uid?uid:[NSString stringWithFormat:@"%d",y];
     [[NSUserDefaults standardUserDefaults]  setObject:self.userId forKey:@"userId"];
     [ZPhotoEngineKit sharedEngine].delegate = self;
@@ -36,6 +36,10 @@
 }
 
 - (IBAction)otherJoin:(id)sender {
+    if (self.textMeetingId.text.length == 0) {
+        [self.view makeToast:@"请输入会议号"];
+        return;
+    }
     [[ZPhotoEngineKit sharedEngine] join:self mobile:self.userId meetId:self.textMeetingId.text];
 }
 
@@ -54,6 +58,12 @@
             break;
         case JoinFailReasonRoomNotExsit:
             [self.view makeToast:@"会议号不存在"];
+            break;
+        case JoinFailReasonNetError:
+            [self.view makeToast:@"网络异常"];
+            break;
+        case JoinFailReasonRoomError:
+            [self.view makeToast:@"加入会议失败"];
             break;
         default:
             break;
