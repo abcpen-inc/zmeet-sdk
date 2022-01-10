@@ -67,6 +67,11 @@ typedef NS_ENUM(NSUInteger, JoinFailReason) {
 -(void) onRemoteUserOffline:(NSString *) targetId;
 
 /**
+ 分享合照（未实现，调用系统分享）
+ */
+-(void) sharePhoto:(UIImage *) image viewCtrl:(UIViewController *) viewCtrl params:(NSDictionary * __nullable) params;
+
+/**
  会议结束
  */
 -(void) onMeetFinish;
