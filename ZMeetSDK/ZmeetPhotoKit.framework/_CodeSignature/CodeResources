@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mPfncnqT8KrFZDTcGTKZFWbKIa4=
+		Ky/aHCBb8UUcw73dK4ib3LQ/LfY=
 		</data>
 		<key>AudioCollectionViewCell.nib/objects-11.0+.nib</key>
 		<data>
@@ -43,11 +43,11 @@
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/ZmeetCoreKit</key>
 		<data>
-		wmJuzu340dhqlt/hGmK2mScbIwc=
+		wNY3yWV9/aNGMF/M7KbLg1aUD/Q=
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		IJTpqT5TtL7drKzZAqMpTIKWbmE=
+		RVccQBp65zvf/a30ELFzzevkVOs=
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/assets/app.json</key>
 		<data>
@@ -63,11 +63,11 @@
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/main.jsbundle</key>
 		<data>
-		PuDKJSQ3lYxHLjtsQhB/bxRUlXI=
+		BzYfEYGQAYwCGd1JYvxEd5nNpCg=
 		</data>
 		<key>Headers/ZPhotoEngineKit.h</key>
 		<data>
-		6J7Fg+hOKWmcs8yK/cjodwIu1tw=
+		CQ4SLe4whtqNLGRtGp6sB14Ww1w=
 		</data>
 		<key>Headers/ZPhotoUserInfo.h</key>
 		<data>
@@ -136,11 +136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mPfncnqT8KrFZDTcGTKZFWbKIa4=
+			Ky/aHCBb8UUcw73dK4ib3LQ/LfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+R6Q1V9svl1aSTF52y5ZltbNrz5MJcE5BalCmjH06lo=
+			10nXgIrOmWvw4DT8KnCbe1Iq2MO2DT5HLT2Su1JFBi0=
 			</data>
 		</dict>
 		<key>AudioCollectionViewCell.nib/objects-11.0+.nib</key>
@@ -226,22 +226,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wmJuzu340dhqlt/hGmK2mScbIwc=
+			wNY3yWV9/aNGMF/M7KbLg1aUD/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			v6uNGr93vV+T/2Oj0j3W65+igZRTcgm95Hllgns8Lpk=
+			rY4ng4osRQn4OAJdLHn6MrSml3oyEysS/yebbnJHZDc=
 			</data>
 		</dict>
 		<key>Frameworks/ZmeetCoreKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IJTpqT5TtL7drKzZAqMpTIKWbmE=
+			RVccQBp65zvf/a30ELFzzevkVOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aZWte/a3UKr1z7zGV37TZiYy7xEzoA1y3NZq/TWCe8g=
+			ywvwZ84SsKGmyhdrjPVp1s67RydoVkX9zWaBttfRRq8=
 			</data>
 		</dict>
 		<key>Frameworks/ZmeetCoreKit.framework/assets/app.json</key>
@@ -281,22 +281,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PuDKJSQ3lYxHLjtsQhB/bxRUlXI=
+			BzYfEYGQAYwCGd1JYvxEd5nNpCg=
 			</data>
 			<key>hash2</key>
 			<data>
-			gZ1PiVF8/StuObAZUiXJufKu/HC03Okt4XEc6Eszlm4=
+			KJ/NZLAjJ85idvymYyMT6SG4NsgChz1tjb2OdAG1uSs=
 			</data>
 		</dict>
 		<key>Headers/ZPhotoEngineKit.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6J7Fg+hOKWmcs8yK/cjodwIu1tw=
+			CQ4SLe4whtqNLGRtGp6sB14Ww1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ezadm2QNFi128NEu65YECFugmZmNNf1lh/3tvymnQ18=
+			x/RvK9+N+hqwsEZyBv/kalZ3/pFWKVRb1ujFoCUXGYk=
 			</data>
 		</dict>
 		<key>Headers/ZPhotoUserInfo.h</key>

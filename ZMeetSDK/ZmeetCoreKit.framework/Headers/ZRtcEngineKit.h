@@ -107,6 +107,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void) didReciveCommond:(NSString *) eventName data:(id)data;
 
+-(void) didDisconnected;
+
+-(void) didReconnecting;
+
 @end
 
 @interface ZRtcEngineKit : NSObject
