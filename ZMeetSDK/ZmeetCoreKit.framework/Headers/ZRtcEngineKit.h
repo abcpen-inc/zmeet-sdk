@@ -46,6 +46,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void) firstLocalVideoFramePublished;
 
+/**
+ 本地音频推送成功
+ */
+-(void) firstLocalAudioFramePublished;
+
 -(void) localVideoClose;
 
 /**

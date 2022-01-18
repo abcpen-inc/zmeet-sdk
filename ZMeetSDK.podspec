@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZMeetSDK"
-  s.version          = "1.0.7"
+  s.version          = "1.0.12"
   s.summary          = "ZMeetSDK."
   s.description      = "ZMeetSDK of bing"
   s.homepage         = "http://www.abcpen.com"
