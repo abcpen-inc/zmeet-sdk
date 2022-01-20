@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		WwuZs3/oQ+jcFV+rILPO4N3y350=
+		cuV/M1Y8K6Ys4PWNxPjcFuPKVj0=
 		</data>
 		<key>AudioCollectionViewCell.nib/objects-11.0+.nib</key>
 		<data>
@@ -43,7 +43,7 @@
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/ZmeetCoreKit</key>
 		<data>
-		K8Y8C+dCWBolHbCI/UnwbqnWxtI=
+		D3wMTuFMSU1jzHAEMhHnamBBeas=
 		</data>
 		<key>Frameworks/ZmeetCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -192,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WwuZs3/oQ+jcFV+rILPO4N3y350=
+			cuV/M1Y8K6Ys4PWNxPjcFuPKVj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			3xcNGmJmaWPWGgqiE3ICU7dVA12Pbs3xu4XU1YPXNA0=
+			Ju6I/4qF5DynXHM0Obfod7qI0bxK5mkfxB972bssFn0=
 			</data>
 		</dict>
 		<key>AudioCollectionViewCell.nib/objects-11.0+.nib</key>
@@ -282,11 +282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K8Y8C+dCWBolHbCI/UnwbqnWxtI=
+			D3wMTuFMSU1jzHAEMhHnamBBeas=
 			</data>
 			<key>hash2</key>
 			<data>
-			gMtQgatZbyki6YUQ+hhG9ONCaCfaqEHBBHuNwQihWxo=
+			6OPaS8UGy3I+LB5HLschPDvhItjZd23UeaYmpGPi+sQ=
 			</data>
 		</dict>
 		<key>Frameworks/ZmeetCoreKit.framework/_CodeSignature/CodeResources</key>
