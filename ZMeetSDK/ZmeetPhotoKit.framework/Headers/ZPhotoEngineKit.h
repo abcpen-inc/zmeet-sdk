@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-typedef NS_ENUM(NSUInteger, JoinFailReason) {
+typedef NS_ENUM(long, JoinFailReason) {
     JoinFailReasonNetError = -9999, //网络异常
     JoinFailReasonRoomError = -8888, //加入会议失败
     JoinFailReasonAuth = -1, //授权失败
