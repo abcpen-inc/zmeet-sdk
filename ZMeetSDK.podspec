@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ZMeetSDK"
-  s.version          = "1.0.19"
+  s.version          = "1.0.20"
   s.summary          = "ZMeetSDK."
   s.description      = "ZMeetSDK of bing"
   s.homepage         = "http://www.abcpen.com"
@@ -28,6 +28,19 @@ Pod::Spec.new do |s|
     sp.public_header_files = 'ZMeetSDK/ZmeetPhotoKit.framework/Headers/ZmeetPhotoKit.h'
     sp.source_files        = 'ZMeetSDK/ZmeetPhotoKit.framework/Headers/*.{h}'
     sp.vendored_frameworks = 'ZMeetSDK/ZmeetPhotoKit.framework'
+    sp.dependency 'AFNetworking'
+    sp.dependency 'Masonry'
+    sp.dependency 'GPUImage'
+    sp.dependency 'JSONModel'
+    sp.dependency 'Toast'
+    sp.frameworks =  "Foundation","UIKit"
+    sp.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+  end
+
+   s.subspec 'ZmeetUIKit' do |sp|
+    sp.public_header_files = 'ZMeetSDK/ZmeetUIKit.framework/Headers/ZmeetUIKit.h'
+    sp.source_files        = 'ZMeetSDK/ZmeetUIKit.framework/Headers/*.{h}'
+    sp.vendored_frameworks = 'ZMeetSDK/ZmeetUIKit.framework'
     sp.dependency 'AFNetworking'
     sp.dependency 'Masonry'
     sp.dependency 'GPUImage'

@@ -1,0 +1,6 @@
+framework module ZmeetUIKit {
+  umbrella header "ZmeetUIKit.h"
+
+  export *
+  module * { export * }
+}
